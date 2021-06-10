@@ -1,0 +1,28 @@
+{% extends 'base.html'%}
+<!-- Jinja2 syntax -->
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+<!-- signifies a block -->
+
+{% block body %}
+<br>
+<h1>Home Page Rockets</h1>
+</br>
+
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome</h1>
+            <p>Welcome to the NBA Procademy blog. On this blog, we will be posting about nba players, teams, and predictions in the lense of probability and data science</p>
+            <p> Go visit me at my <a href="https://www.instagram.com/aayushdavetx/">Instagram</a> for more cool content about the NBA!</p>
+            <p>
+                <a class="btn btn-primary" href="/posts" role="button">View Posts
+                    &raquo;</a>
+            </p>
+        </div>
+    </div>
+</main>
+{% endblock %}
+<!-- signifies a block -->
